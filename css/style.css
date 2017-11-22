@@ -14,6 +14,10 @@
 .mainBody {
 	margin: auto;
 }
+.map-iframe{
+	width: 100%;
+	max-width:400px;
+}
 
 .jumbo-container {
 	background: url("../img/graveyard.jpg");
@@ -134,7 +138,8 @@
 
 .carousel {
 	/* any dimensions are fine, it can be responsive with max-width */
-	width: 475px;
+	max-width: 475px;
+	width: 100%;
 	height: 400px;
 }
 
